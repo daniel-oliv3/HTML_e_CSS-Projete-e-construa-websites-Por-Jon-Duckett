@@ -1,0 +1,14 @@
+/*nome da cor*/
+h1{
+    color: darkcyan;
+}
+
+/*codigo hexidecimal*/
+h2{
+    color: #ee3e80;
+}
+
+/*valor rgb(vermelho, verde, azul)*/
+p{
+    color: rgb(100, 100, 90);
+}

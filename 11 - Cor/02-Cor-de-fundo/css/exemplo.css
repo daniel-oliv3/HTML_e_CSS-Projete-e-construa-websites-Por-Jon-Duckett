@@ -1,0 +1,26 @@
+/**/
+body{
+    background-color: rgb(200, 200, 200);
+    color: white; /*não estava no livro so no site, para facilitar a leitura no livro*/
+	padding: 20px; /**/
+    font-family: Arial, Verdana, sans-serif; /**/
+}
+
+/**/
+h1{
+    background-color: darkcyan;
+    padding: inherit; /**/
+}
+
+/**/
+h2{
+    background-color: #ee3e80;
+    padding: inherit; /**/
+}
+
+/**/
+p{
+    background-color: white;
+    color: rgb(100,100,90); /**/
+	padding: inherit;  /**/
+}

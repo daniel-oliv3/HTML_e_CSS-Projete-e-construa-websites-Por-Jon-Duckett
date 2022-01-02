@@ -1,0 +1,27 @@
+/*{}*/
+body{
+    background-color: #C8C8C8;
+    background-color: hsl(0, 0%, 75%);
+    color: white;
+    padding: 20px;
+    font-family: Arial, Verdana, sans-serif;
+}
+
+/**/
+h1{
+    background-color: darkcyan;
+    padding: inherit;
+}
+
+/**/
+h2{
+    background-color: #ee3e80;
+    padding: inherit;
+}
+
+p{
+    background-color: #ffffff;
+    background-color: hsla(0,100%,100%,0.5);
+    color: #64645A;
+    padding: inherit;
+}
