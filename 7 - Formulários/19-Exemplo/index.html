@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo Formulário</title>
+</head>
+<body>
+    <form action="http://example.com/review.php" method="GET">
+        <fieldset>
+            <legend>
+                Seus Detalhes
+            </legend>
+            <label>
+                Nome:
+                <input type="text" name="nome" size="30" maxlength="100">
+            </label>
+            <br/>
+            <label>
+                Email:
+                <input type="email" name="email" maxlength="100">
+            </label>
+            <br/>
+        </fieldset>
+        <br/>
+        <fieldset>
+            <legend>
+                Sua Revisão:
+            </legend>
+            <p>
+                <label for="hear-about">
+                    Como você ficou sabendo sobre nós?
+                </label>
+                <select name="referrer" id="">
+                    <option value="google">Google</option>
+                    <option value="amigo">Amigo</option>
+                    <option value="advertir">Advertir</option>
+                    <option value="outros">Outros</option>
+                </select>
+            </p>
+            <p>
+                Você visitaria novamente?
+                <br/>
+                <label>
+                    <input type="radio" name="rating" value="sim">Sim
+                </label>
+                <label>
+                    <input type="radio" name="rating" value="nao">Não
+                </label>
+                <label>
+                    <input type="radio" name="rating" value="maybe">Pode ser
+                </label>
+            </p>
+            <p>
+                <label for="comments">
+                    Comentários:
+                </label>
+                <br/>
+                <textarea id="comments" cols="40" rows="4">
+                </textarea>
+            </p>
+            <label>
+                <input type="checkbox" name="subscribe" checked="checked">
+                Inscreva-me para receber atualizações por e-mail
+            </label>
+            <br/>
+            <input type="submit" value="Enviar Avaliação">
+        </fieldset>
+    </form>
+</body>
+</html>
