@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adicionando um Player de MP3 em Flash</title>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/swfobject/2.2/swfobject.js">
+    </script>
+    <script type="text/javascript">
+        var flashvars = {};
+        var parms = {mp3: "audio/test-audio.mp3"};
+        swfobject.embedSWF(
+            "flash/player_mp3", "200", "20", "8.0.0",
+            flashvars, parms );
+    </script>
+</head>
+<body>
+    <div id="music-player">
+        <p>Você não pode ouvir esta faixa porque este navegador não suporta nosso reprodutor de música em Flash.</p>
+    </div>
+</body>
+</html>

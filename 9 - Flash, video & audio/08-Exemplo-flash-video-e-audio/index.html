@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flash, Vídeo e Áudio</title>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/swfobject/2.2/swfobject.js">
+    </script>
+    <script type="text/javascript">
+        var flashvars = {};
+        var params = {movie: "../video/puppy.flv"};
+        swfobject.embedSWF("flash/osplayer.swf", "snow", "400", "320", "8.0.0", flashvars, params);
+    </script>
+</head>
+<body>
+    <video poster="imagens/puppy.jpg" width="400" height="320" controls="controls">
+        <source src="video/puppy.mp4" type='video/mp4;codecs="avcl.42E01E, mp4a.40.2"'/>
+        <source src="video/puppy.webm" type='video/webm;codecs="vp8, vorbis"'/>
+        <div id="snow">
+            <p>Você não pode ver este vídeo de um cachorro brincando na neve porque este navegador não suporta nossos formatos de vídeo.</p>
+        </div>
+    </video>
+</body>
+</html>
