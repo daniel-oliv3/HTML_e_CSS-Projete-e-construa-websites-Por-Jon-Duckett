@@ -1,0 +1,18 @@
+body{
+    font-family: Arial, Verdana, sans-serif;
+    color: #111111;
+}
+
+div {
+    border: 2px solid #e7642c;
+    width: 200px;
+    /*margin: 10px;
+    padding: 10px;*/
+}
+
+h2, p {
+    width: 200px;
+    font-size: 80%;
+    line-height: 1.4em;
+}
+

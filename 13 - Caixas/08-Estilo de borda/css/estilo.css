@@ -1,0 +1,41 @@
+body{
+    font-family: Arial, Verdana, sans-serif;
+    color: #111111;
+}
+
+p{
+    width: 250px;/*largura*/
+    border-width: 3px;
+}
+
+p.one{
+    border-style: solid; /*uma unica linha continua*/
+}
+
+p.two{
+    border-style: dotted; /*uma serie de pontos quadrados*/
+}
+
+p.three{
+    border-style: dashed; /*uma serie de linhas curtas*/
+}
+
+p.four{
+    border-style: double; /*duas linhas continuas*/
+}
+
+p.five{
+    border-style: groove; /*parece entalhado na pagina*/
+}
+
+p.six{
+    border-style: ridge; /*parece projetar-se para fora da pagina*/
+}
+
+p.seven{
+    border-style: inset; /*parece embutido na pagina*/
+}
+
+p.eight{
+    border-style: outset; /*parece como se estivesse saindo da tela*/
+}

@@ -1,0 +1,13 @@
+body{
+    font-family: Arial, Verdana, sans-serif;
+    color: #111111;
+}
+
+li{
+    display: inline;
+    margin-right: 10px;
+}
+
+li.coming-soon{
+    display: none;
+}

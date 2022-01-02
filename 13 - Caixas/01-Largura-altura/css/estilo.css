@@ -1,0 +1,28 @@
+/*div.box{
+    height: 300px; 
+    width: 300px; 
+    background-color: #bbbbaa;
+}
+
+p{
+    height: 75%;
+    width: 75%;
+    background-color: #0088dd;
+} Do jeito do livro ta diferente do que pelo site do livro */
+
+body {
+    font-family: Arial, Verdana, sans-serif;
+    color: #111111;
+}
+
+div {
+    width: 300px; /*largura*/
+    height: 300px; /*altura*/
+    background-color: #ee3e80;
+}
+
+p {
+    height: 75%;
+    width: 75%;
+    background-color: #e1ddda;
+}
