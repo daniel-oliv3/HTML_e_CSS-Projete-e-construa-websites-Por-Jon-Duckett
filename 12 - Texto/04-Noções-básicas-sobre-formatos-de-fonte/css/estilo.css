@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'ChunkFiveRegular';
+    src: url('fonts/chunkfive.eot');
+    src: url('fonts/chunkfive.eot?#iefix') format('embedded-opentype'),
+             url('fonts/chunkfive.woff') format('woff'),
+             url('fonts/chunkfive.ttf') format('truetype'),
+             url('fonts/chunkfive.svg#ChunkFiveRegular') format('svg');
+}
+h1, h2 {
+    font-family: ChunkFiveRegular, Georgia, serif;
+}

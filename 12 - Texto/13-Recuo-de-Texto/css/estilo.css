@@ -1,0 +1,9 @@
+h1 {
+    background-image: url("images/logo.gif");
+    background-repeat: no-repeat;
+    text-indent: -9999px;
+}
+
+.credits {
+    text-indent: 20px;
+}

@@ -1,0 +1,17 @@
+a:link{
+    color: deeppink;
+    text-decoration: none;
+}
+
+a:visited{
+    color: black;
+}
+
+a:hover{
+    color: deeppink;
+    text-decoration: underline;
+}
+
+a:active{
+    color: darkcyan;
+}

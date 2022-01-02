@@ -1,0 +1,11 @@
+h1{
+    text-transform: uppercase; /*maiusculas*/
+}
+
+h2 {
+    text-transform: lowercase; /*minusculas*/
+}
+
+.credits {
+    text-transform: capitalize; /*primeira letra de cada palava fica maiusculas*/
+}

@@ -1,0 +1,11 @@
+h1 {
+    text-align: left; /*texto alinhado a esquerda*/
+}
+
+p {
+    text-align: justify; /*ocupa toda largura da caixa que as contem*/
+}
+
+.credits {
+    text-align: right; /*texto alinhado a direita*/
+}

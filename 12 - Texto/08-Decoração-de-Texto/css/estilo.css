@@ -1,0 +1,8 @@
+h1{
+    text-decoration: underline; /*adiciona uma linha abaixo do texto*/
+}
+
+a {
+    text-decoration: none; /*tira qualquer decoracao ja aplicada ao texto*/
+}
+

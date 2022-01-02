@@ -1,0 +1,10 @@
+h1, h2 {
+    text-transform: uppercase; /**/
+    letter-spacing: 0.2em;
+}
+
+.credits {
+    font-weight: bolder; /**/
+    word-spacing: 1em;
+}
+
