@@ -1,0 +1,6 @@
+ul {
+    list-style-image: url("images/star.png");
+}
+li {
+    margin: 10px 0px 0px 0px;
+}
